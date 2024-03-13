@@ -9,6 +9,8 @@ def main():
     print(const.WELCOME_MESSAGE)
     util.cbc_print("Press enter to continue...")
     input()
+    util.wbw_print("Press enter to continue...")
+    input()
     util.clear()
 
 
