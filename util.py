@@ -9,7 +9,7 @@ def clear():
         os.system('clear')
 
 
-def cbc_print(string: str, interval: float):
+def cbc_print(string: str, interval: float = 0.25):
     '''
     print the string char by char
     '''
