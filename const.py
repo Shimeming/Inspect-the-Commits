@@ -1,6 +1,8 @@
 LINE_UP = '\033[1A'
 LINE_CLEAR = '\x1b[2K'
 
+# Big, Blocks, Chiseled, Modular, Slant, Standard, Train, ANSI-, ivrit, Larry 3D, Rammstein, speed, X992
+# chosen: Train
 WELCOME_MESSAGE = (
 '''
                  ___                           _                              
