@@ -7,7 +7,8 @@ def main():
     util.clear()
     print()
     print(const.WELCOME_MESSAGE)
-    input("Press enter to continue...")
+    util.cbc_print("Press enter to continue...")
+    input()
     util.clear()
 
 

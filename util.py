@@ -1,5 +1,6 @@
 import os
 import platform
+import time
 
 
 def clear():
@@ -9,8 +10,10 @@ def clear():
         os.system('clear')
 
 
-def cbc_print(string: str, interval: float):
+def cbc_print(string: str, interval: float = 0.1):
     '''
-    print the string char by char
+    Print the string char by char.
     '''
-    print(string)
+    for c in string:
+        print(c, end='', flush=True)
+        time.sleep(interval)
