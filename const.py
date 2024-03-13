@@ -3,8 +3,7 @@ LINE_CLEAR = '\x1b[2K'
 
 # Big, Blocks, Chiseled, Modular, Slant, Standard, Train, ANSI-, ivrit, Larry 3D, Rammstein, speed, X992
 # chosen: Train
-WELCOME_MESSAGE = (
-'''
+WELCOME_MESSAGE = ('''
                  ___                           _                              
         o O O   | __|    _ _    ___     ___   | |_     _ __    __ _    _ _    
        o        | _|    | '_|  / -_)   (_-<   | ' \   | '  \  / _` |  | ' \   
@@ -18,5 +17,4 @@ WELCOME_MESSAGE = (
     _|"""""|_|"""""|_| """ |_|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======| 
     "`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'./o--000' 
 
-'''
-)
+''')

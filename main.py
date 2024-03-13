@@ -1,7 +1,9 @@
 import time
-import os, platform
+import os
+import platform
 import util
 import const
+
 
 def main():
     util.clear()
