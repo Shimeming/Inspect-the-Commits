@@ -28,9 +28,9 @@ Enter your option: ''')
             # util.clear()
         if action == '3':
             util.clear()
-            util.cbc_print('Please insert the first key obtained from Challenge 1: ')
+            print('Please insert the first key obtained from Challenge 1: ', end='')
             key1 = input()
-            util.cbc_print('Please insert the first key obtained from Challenge 2: ')
+            print('Please insert the first key obtained from Challenge 2: ', end='')
             key2 = input()
             for i in range(6):
                 print('Casting the flag' + (i%3+1)*'.' + '   ', end='\r')
