@@ -25,7 +25,7 @@ python3 main.py
 ```
 
 ## The second key
-Oops, I hide the second key in one commit of a secret branch but I forgot where it is.
+Oops, I concealed the second key within a commit of a secret branch but I forgot where it is.
 
 You can browse the branches by clicking this button.
 
