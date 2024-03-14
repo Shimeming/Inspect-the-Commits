@@ -11,7 +11,7 @@ def home():
 Please select an action you want to do.
   * 1)  Challenge 1
   * 2)  Challenge 2
-  * 3)  Merge the two keys
+  * 3)  Merge the two keys and obtain the flag
   * Q)  Quit
 Enter your option: ''')
         util.clear()
@@ -20,11 +20,15 @@ Enter your option: ''')
             maze = challenge1.Maze()
             maze.run()
         if action == '2':
-            pass
+            util.cbc_print('Please refer to README.\n')
+            time.sleep(1)
+            util.cbc_print('Press "Enter" to continue...\n')
+            input()
+            util.clear()
         if action == '3':
             util.clear()
-            key1 = input('Please insert the first key obtained from Challenge 1: ')
-            key2 = input('Please insert the first key obtained from Challenge 2: ')
+            key1 = util.cbc_print('Please insert the first key obtained from Challenge 1: \n')
+            key2 = util.cbc_print('Please insert the first key obtained from Challenge 2: \n')
             for i in range(6):
                 print('Casting the flag' + (i%3+1)*'.' + '   ', end='\r')
                 time.sleep(1)

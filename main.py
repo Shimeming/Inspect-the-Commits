@@ -7,7 +7,7 @@ def main():
     util.clear()
     print()
     print(const.WELCOME_MESSAGE)
-    util.cbc_print('Press enter to continue...')
+    util.cbc_print('Press "Enter" to continue...')
     input()
     util.clear()
     home.home()
