@@ -1,6 +1,7 @@
 import util
 import const
 import time
+import challenge1
 
 
 def home():
@@ -16,7 +17,8 @@ Enter a number: ''')
         util.clear()
         
         if action == '1':
-            pass
+            maze = challenge1.Maze()
+            maze.run()
         if action == '2':
             pass
         if action == '3':
