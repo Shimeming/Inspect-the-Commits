@@ -13,7 +13,7 @@ Please select an action you want to do.
   * 2)  Challenge 2
   * 3)  Merge the two keys
   * Q)  Quit
-Enter a number: ''')
+Enter your option: ''')
         util.clear()
         
         if action == '1':
@@ -32,6 +32,6 @@ Enter a number: ''')
             flag2 = util.unlock(key2, const.SLOT2)
             print()
             print('The flag is: ')
-            print(f'{flag1}{flag2}')
+            util.cbc_print(flag1 + flag2 + '\n', 0.2)
         if action == 'Q':
             break

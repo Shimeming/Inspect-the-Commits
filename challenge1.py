@@ -70,4 +70,8 @@ Please enter a sequence of operations: ''', end='')
                     break
         if self.state == 'complete':
             print('Congratulation!')
-            print(f'The secret key is "{const.MAZE_REWARD}".')
+            util.cbc_print(f'The secret key is "{const.MAZE_REWARD}". ')
+            print('Please keep the key safely.')
+            util.cbc_print('Press enter to continue...\n')
+            input()
+            util.clear()
