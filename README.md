@@ -7,3 +7,19 @@ If you ever find yourself unsure about your current progress or if things seem t
 git clone https://github.com/Shimeming/Looking-for-Forgotten-Commit.git
 ```
 This will effectively start the process anew, allowing you to regain clarity and control over your workflow.
+
+## How to start
+1.Open a terminal and download the repository with the following command.
+```
+git clone https://github.com/Shimeming/Looking-for-Forgotten-Commit.git
+```
+
+2. Run this command (change directory) to enter the directory.
+```
+cd Looking-for-Forgotten-Commit
+```
+
+3. Run this command to start.
+```
+python3 main.py
+```
