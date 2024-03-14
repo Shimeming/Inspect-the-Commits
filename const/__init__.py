@@ -1,4 +1,5 @@
 from const.image_link import *
+from const.maze import *
 
 LINE_UP = '\033[1A'
 LINE_CLEAR = '\x1b[2K'

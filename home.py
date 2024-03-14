@@ -1,4 +1,5 @@
 import util
+import challenge1
 
 
 def home():
@@ -14,7 +15,8 @@ Enter a number: ''')
 
     action = int(action)
     if action == 1:
-        pass
+        maze = challenge1.Maze()
+        maze.run()
     if action == 2:
         pass
     if action == 3:
