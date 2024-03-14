@@ -21,6 +21,7 @@ Enter your option: ''')
             maze.run()
         if action == '2':
             util.cbc_print('Please refer to README.\n')
+            util.cbc_print('Hint: read every README whenever you switch between branches or commits.\n')
             # time.sleep(1)
             # util.cbc_print('Press "Enter" to continue...\n')
             # input()
