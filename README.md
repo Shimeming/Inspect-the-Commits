@@ -23,3 +23,14 @@ cd Looking-for-Forgotten-Commit
 ```
 python3 main.py
 ```
+
+## The second key
+Oops, I hide the second key in one commit of a secret branch but I forgot where it is.
+
+You can browse the branches by clicking this button.
+
+![branch_button](image/branch_button.png)
+
+You can click the "View all branches" button to see all branches.
+![view all branches](image/branch_list.png)
+
