@@ -30,8 +30,15 @@ def wbw_print(string: str, interval: float = 0.3):
 
 
 def xor_two_str(str1: str, str2: str):
-    assert(len(str1) == len(str2))
     str3 = ''
     for i in range(len(str1)):
         str3 += chr(ord(str1[i]) ^ ord(str2[i]))
+    return str3
+
+def unlock(key: str, slot: list[int]):
+    if len(key) != len(slot):
+        return 'WRONG_KEY'
+    str3 = ''
+    for i in range(len(key)):
+        str3 += chr(ord(key[i]) ^ slot[i])
     return str3
