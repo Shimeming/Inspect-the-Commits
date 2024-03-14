@@ -1,5 +1,5 @@
 # Looking-for-Forgotten-Commit
-Freshman ICPC 2024 - problem L
+FreshmanICPC2023 - problem L
 
 ## Tips
 If you ever find yourself unsure about your current progress or if things seem to be getting out of control while working with Git, a helpful strategy is to reset by either deleting the directory entirely or navigating to a different location and running the command:
