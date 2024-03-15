@@ -39,6 +39,6 @@ Enter your option: ''')
             flag2 = util.unlock(key2, const.SLOT2)
             print()
             print('The flag is: ')
-            util.cbc_print(flag1 + flag2 + '\n', 0.2)
+            util.cbc_print(f'CSIE{{{flag1}{flag2}}}\n', 0.2)
         if action == 'Q':
             break
