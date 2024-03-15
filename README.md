@@ -9,20 +9,30 @@ git clone https://github.com/Shimeming/Inspect-the-Commits.git
 This will effectively start the process anew, allowing you to regain clarity and control over your workflow.
 
 ## How to start
-1.Open a terminal and download the repository with the following command.
+If python isn't installed on your computer, you can `ssh` to the workstation.
 ```
-git clone https://github.com/Shimeming/Inspect-the-Commits.git
+ssh <your_student_ID>@ws1.csie.ntu.edu.tw
 ```
+
+1. Open a terminal and download the repository with the following command. It is recommended to use full screen mode.
+    ```
+    git clone https://github.com/Shimeming/Inspect-the-Commits.git
+    ```
 
 2. Run this command (change directory) to enter the directory.
-```
-cd Inspect-the-Commits
-```
+    ```
+    cd Inspect-the-Commits
+    ```
 
 3. Run this command to start.
-```
-python3 main.py
-```
+    ```
+    python3 main.py
+    ```
+
+    Run this command if the previous one doesn't work.
+    ```
+    python main.py
+    ```
 
 ## The second key
 Oops, I concealed the second key within a commit of a secret branch but I forgot where it is.
