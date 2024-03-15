@@ -29,11 +29,22 @@ def wbw_print(string: str, interval: float = 0.3):
         time.sleep(interval)
 
 
+def twinkle_print(string: str, interval: float = 0.2, times: int = 3):
+    for _ in range(times):
+        print(string, end='\r')
+        time.sleep(0.2)
+        print(' '*len(string), end='\r')
+        time.sleep(0.2)
+    print(string)
+    time.sleep(0.2)
+
+
 def xor_two_str(str1: str, str2: str):
     str3 = ''
     for i in range(len(str1)):
         str3 += chr(ord(str1[i]) ^ ord(str2[i]))
     return str3
+
 
 def unlock(key: str, slot: list[int]):
     if len(key) != len(slot):

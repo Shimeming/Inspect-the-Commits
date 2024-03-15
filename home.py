@@ -2,6 +2,7 @@ import util
 import const
 import time
 import challenge1
+from hashlib import sha256
 
 
 def home():
@@ -41,8 +42,12 @@ Enter your option: ''')
             flag1 = util.unlock(key1, const.SLOT1)
             flag2 = util.unlock(key2, const.SLOT2)
             print()
-            print('The flag is: ')
-            util.cbc_print(f'CSIE{{{flag1}{flag2}}}\n', 0.2)
+            flag = f'CSIE{{{flag1}{flag2}}}'
+            if sha256(flag.encode('utf-8')).hexdigest() != const.FLAG_SHA:
+                util.twinkle_print('WRONG_KEY!!!')
+            else:
+                print('The flag is: ')
+                util.cbc_print(f'CSIE{{{flag1}{flag2}}}\n', 0.2)
         if action == '4':
             print(f'Please insert map number(0 ~ {len(const.MAZE_FUN_MAPS)-1})')
             print('An invalid input will result in automatic selection of a random map.')
