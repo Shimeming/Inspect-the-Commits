@@ -37,6 +37,16 @@ ssh <your_student_ID>@ws1.csie.ntu.edu.tw
 ## The second key
 Oops, I concealed the second key within a commit of a secret branch but I forgot where it is.
 
+The secret is concealed in a comment in the source file of this README.
+<!-- the key is: "lets join Challenge2024 together" -->
+
+The source code of the README is in `README.md`.
+![README.md](image/readme_source.png)
+
+You can click this button to explore commit history and inspect if there's a sus commit.
+
+![commits_button](image/commits_button.png)
+
 You can browse the branches by clicking this button.
 
 ![branch_button](image/branch_button.png)
